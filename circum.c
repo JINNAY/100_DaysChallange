@@ -21,8 +21,9 @@ void main()
 	float radius;
 
 	printf("enter the radus of the circle\n");
+    
+	scanf("%f", &radius);
 
-	scanf("%f",&radius);
-	printf("the circumference of the circle with radius %f is: %f\n",radius,2*(22/7)*radius);
-	printf("the area of the circle with radius %f is: %f\n",radius,(22/7)*(radius*radius));
+	printf("the circumference of the circle with radius %f is: %f\n", radius, 2 * (22.0 / 7) * radius);
+	printf("the area of the circle with radius %f is: %f\n", radius, (22.0 / 7) * (radius * radius));
 }
